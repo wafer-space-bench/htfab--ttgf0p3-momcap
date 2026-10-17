@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/htfab/ttgf0p3-momcap
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf0p3
+  slot: tt_um_htfab_momcap
+  project: MoM capacitor
+  size: 1x2
+  kind: analog
+  commit: b8485bdef09f34fa4147dc514f4d93288328a9cb
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf0p3/tt_um_htfab_momcap
+  branch: tapeout/tinytapeout/ttgf0p3/tt_um_htfab_momcap
+  page: https://app.tinytapeout.com/shuttles/ttgf0p3
+generated: '2026-10-17T23:49:32Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf0p3/tt_um_htfab_momcap
+- upstream/main
